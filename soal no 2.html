@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>UNINDRA</title>
+  <style>
+    body {
+      background-color: yellow;
+      font-family: Arial, sans-serif;
+    }
+
+    .logo {
+      display: block;
+      margin: 20px auto 10px auto;
+      width: 90px;
+    }
+
+    h1 {
+      color: blue;
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    marquee {
+      color: red;
+      font-size: 18px;
+    }
+
+    hr {
+      border: none;
+      height: 5px;
+      background-color: black;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+      width: 60%;
+    }
+
+    td {
+      border: 1px solid black;
+      padding: 6px 10px;
+    }
+
+    input[type="text"] {
+      width: 90%;
+      padding: 5px;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      display: block;
+      margin: 15px auto;
+      padding: 8px 20px;
+      font-weight: bold;
+      border-radius: 5px;
+      border: 1px solid black;
+      background-color: white;
+      cursor: pointer;
+    }
+
+    .list-container {
+      width: 60%;
+      margin: 20px auto;
+    }
+
+    .list-container td {
+      border: none;
+      vertical-align: top;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div style="text-align:center;">
+  <img src="unindra.png" alt="unindra.png" width="90">
+  </div>
+
+  <h1>UNIVERSITAS INDRAPRASTA PGRI (UNINDRA)</h1>
+  <marquee direction="right">Jl. Nangka No.58 Tanjung Barat - JakSel</marquee>
+
+  <hr size="5">
+
+  <form>
+    <table>
+      <tr>
+        <td>Nama</td>
+        <td>: <input type="text" name="nama" placeholder="Masukkan Nama Anda"></td>
+      </tr>
+      <tr>
+        <td>NPM</td>
+        <td>: <input type="text" name="npm" placeholder="Masukkan NPM Anda"></td>
+      </tr>
+    </table>
+
+    <button type="submit">SIMPAN</button>
+  </form>
+
+  <table class="list-container">
+    <tr>
+      <td width="50%">
+        <b>FTIK :</b>
+        <ol type="A">
+          <li>Informatika</li>
+          <li>Teknik Arsitektur</li>
+          <li>Teknik Industri</li>
+        </ol>
+      </td>
+      <td width="50%">
+        <b>MIPA :</b>
+        <ol type="I">
+          <li>Matematika</li>
+          <li>Fisika</li>
+          <li>Biologi</li>
+        </ol>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
